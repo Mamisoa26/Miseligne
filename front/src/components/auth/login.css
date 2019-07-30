@@ -1,0 +1,62 @@
+#feedback-form {
+   width: 64.5vh;
+    margin: 0 auto;
+      padding: 2.58vh 6.45vh 5.16vh;
+       box-shadow: 0.129vh 0.516vh 1.29vh 0.129vh #aaa;
+        font-family: verdana, sans-serif;
+       }
+        #feedback-form * { 
+         box-sizing: border-box;
+          margin-top: 6.45vh !important; 
+          font-family: verdana, sans-serif;
+
+        } 
+        #feedback-form h2{ 
+          text-align: center;
+           margin-bottom: 3.87vh;
+           font-family: verdana, sans-serif;
+             
+          } 
+          #feedback-form input { 
+            margin-bottom: 1.935vh;
+            font-family: verdana, sans-serif;
+             
+             }
+              /* #feedback-form input[type=text] {
+                 display: block;
+                  height: 4.128vh;
+                   padding: 0.774vh 2.016vh;
+                    width: 100%; border: none;
+                     background-color: #f3f3f3;
+                      color: #eee; 
+                    }*/ 
+                    #feedback-form label {
+                       color: #777;
+                        font-size: 0.8em;
+                        font-family: verdana, sans-serif;
+                         
+                         } 
+                         #feedback-form input[type=checkbox] {
+                            float: left; 
+                          } 
+                          #feedback-form input:not(:checked) + #feedback-phone {
+                             height: 0;
+                              padding-top: 0;
+                               padding-bottom: 0;
+                               } 
+                               #feedback-form #feedback-phone {
+                                  transition: .3s;
+                                 } 
+                                 #feedback-form button[type=submit] {
+                                    display: block;
+                                     margin: 2.58vh auto 0;
+                                      width: 1.206; 
+                                      height: 5.16vh; 
+                                      border-radius: 3.225vh;
+                                       border: none;
+                                       font-family: verdana, sans-serif;
+                                        
+                                         font-weight: 700;
+                                          box-shadow: 0.129vh 0.516vh 1.29vh 0.129vh #aaa;
+                                           
+                                           } 
